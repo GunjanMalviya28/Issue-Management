@@ -1,14 +1,13 @@
 import './App.css';
 import Navbar from './Navbar';
-import Table from './Table';
-import To_dolist from './To_dolist.js';
+import Todolist from './Todolist';
+
+
 function App() {
   return (
     <div className="App">
     <Navbar/>
-    <To_dolist/>
-    <Table/>
-
+    <Todolist/>
     </div>
   );
 }
