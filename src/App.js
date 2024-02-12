@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Todolist from './Todolist';
 import Home from './Home';
@@ -16,14 +16,14 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Switch>
+        <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
-        </Switch>
+          </Routes>
       </div>
     </Router>  
      <Todolist/>

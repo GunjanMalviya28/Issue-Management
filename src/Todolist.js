@@ -45,7 +45,7 @@ import React, { useState } from "react";
   return (
     <>
       <form onSubmit={submitHandler}>
-      <input type="text" className='text-2xl border-zinc-800 border-4 px-4 py-2 m-8' placeholder="Enter Issue here" 
+      <input type="text" className='text-2xl border-zinc-800 border-4 px-4 py-4 m-8' placeholder="Enter Issue here" 
       value={title} onChange={(e) => {settitle(e.target.value)}}/>
      
      <input type="text" className='text-2xl border-zinc-800 m-8 border-4 px-4 py-2' placeholder="Enter Description here" value={desc} onChange={(e)=>{setdesc(e.target.value)}}/>

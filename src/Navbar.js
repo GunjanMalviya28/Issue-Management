@@ -7,27 +7,10 @@ import logoImg from './logo.png';
 const Navbar = () => {
   return (
     <div>
-{/* <div className="navbar">
+  <div className="navbar">
       <div className="logo-container">
         <img src={logoImg} alt="Logo" className="logo" />
         <span className="title">ResolveHub</span>
-      </div>
-      <div className="center-links">
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <div className="left-links">
-        <a href="#" className="login">Login</a>
-        <a href="#" className="signup">Signup</a>
-      </div>
-    </div> */}
-    
-    <div className="navbar">
-      <div className="logo-container">
-        <img src={logoImg} alt="Logo" className="logo" />
-        <span className="title">Your Website</span>
       </div>
       <div className="center-links">
         <Link to="/">Home</Link>
