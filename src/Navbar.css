@@ -1,6 +1,6 @@
 
 .navbar {
-  background-color: #146d6d;
+  background-color: #2b1707;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -14,13 +14,13 @@
 }
 
 .logo {
-  width: 50px; /* Adjust the width of the logo as needed */
+  width: 90px; /* Adjust the width of the logo as needed */
 }
 
 .title {
   font-size: 1.8rem; /* Adjust the font size of the title */
-  margin-left: 10px; /* Adjust the spacing between the logo and title */
-  color:#ddd
+  margin-left: 1px; /* Adjust the spacing between the logo and title */
+  color:#ddd;
 }
 
 .center-links {
